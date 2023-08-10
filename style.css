@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Roboto+Mono&family=Source+Code+Pro:wght@300&family=Ysabeau+Office&family=Ysabeau+SC:wght@500&display=swap');
+
+
+.main {
+    margin: 1000px;
+    padding: 0;
+}
+
+
+.sidebar {
+
+    position: absolute;
+    background-color: rgb(195, 193, 193);
+   /* width: 350px;*/
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font: 30px;
+    padding-top: 33px
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow;*/
+    width: 90vw;
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    height: 60vh;
+    width: 80vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Ysabeau SC', sans-serif;
+
+
+}
+
+.hello {
+    font-size: 50px;
+    font-family: 'Source Code Pro', monospace;
+
+
+
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Ysabeau SC', sans-serif;
+
+
+}
+
+
+.about {
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.moreabout {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+
+.btn {
+    padding: 7px 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(60, 151, 243);
+    font-weight: bold;
+    font-size: 10px;
+    margin: 1px 4px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 10px 19px;
+    margin: 12px 0;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(60, 151, 243);
+}
+
+
+.devpic img {
+    height: 60vh;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*contact form*/
+.main {
+  width: 900px;
+  margin: -59px auto;
+  padding: 200px;
+  margin-left: 50px;
+}
+
+
+.contactform {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contactform h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.form-text {
+  font-size: 12px;
+  color: #666;
+}
+
+.form-check-label {
+  font-size: 14px;
+}
+
+
+
+.btn:hover {
+  background-color: #ecf3ed;
+}
+/*------------------------------------------------------------------*/
+/*skills*/
+.text-gray-600 {
+  color: #030811;
+  margin-top: -180px;
+  margin-left: 40px;
+}
+
+.body-font {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.relative {
+  position: relative;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.sm\\:items-center {
+  align-items: center;
+}
+
+.md\\:w-2\\/3 {
+  width: 66.666667%;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.bg-gray-200 {
+  background-color: #edf2f7;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.sm\\:mt-0 {
+  margin-top: 0;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.title-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 300;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.md\\:pl-8 {
+  padding-left: 2rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.sm\\:items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.sm\\:flex-row {
+  flex-direction: row;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.bg-blue-100 {
+  background-color: #ebf8ff;
+}
+
+.text-blue-500 {
+  color: #4299e1;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-gray-900 {
+  color: #1a202c;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+-----------------------------------------------------------------------------------------*/
+
+/*Dreams*/
+
+
+
+.skillbox h1{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: small;
+  
+
+}
+.skillbox p{
+  font-family: 'Fira Sans', sans-serif;
+  padding: 22px;
+}
+
+.sidebarGO{
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+
+
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  top: 12px;
+  left: 25px;
+}
+.cross{
+  margin-left: 190px;
+
+}
+
+
+
+@media (max-width: 1100px) {
+  *{
+    /*background-color: rgb(213, 161, 161);*/
+  }
+  .devpic{
+    display: none;
+  }
+ 
+}
